@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background-color: var(--main-bg-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.logo > span {
+  color: white;
+}
+
+.navList {
+  display: flex;
+  /* column-gap: 1.5rem; */
+}
+
+.navList__a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  padding: 1rem;
+}
+
+.navList__a:hover {
+  text-decoration: underline;
+}

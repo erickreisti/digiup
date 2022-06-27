@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: calc(100vh - 72px);
+  padding: 0 1.2rem;
+  background-color: var(--main-bg-color);
+}
+
+.heroTitle {
+  font-weight: 700;
+}
+
+.heroSubTitle {
+  font-weight: 400;
+}
+
+.image {
+  /* display: flex; */
+  width: min(400px, 95vw);
+}
