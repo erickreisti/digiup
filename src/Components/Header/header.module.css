@@ -17,14 +17,14 @@
 
 .navList {
   display: flex;
-  /* column-gap: 1.5rem; */
+  column-gap: 1.5rem;
 }
 
 .navList__a {
   font-size: 1.1rem;
   font-weight: 500;
   color: white;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .navList__a:hover {

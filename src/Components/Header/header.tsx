@@ -6,7 +6,7 @@ export default function Header() {
 			<header>
 				<div className={styles.container}>
 					<h1 className={styles.logo}>Digi<span>UP</span></h1>
-					<nav>
+					<nav className={styles.navMenu}>
 						<ul className={styles.navList}>
 							<li><a className={styles.navList__a} href='#home'>Home</a></li>
 							<li><a className={styles.navList__a} href='#servicos'>Serviços</a></li>

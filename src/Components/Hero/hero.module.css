@@ -16,6 +16,22 @@
 }
 
 .image {
-  /* display: flex; */
-  width: min(400px, 95vw);
+  width: min(500px, 95vw);
+}
+
+.btnStart {
+  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: var(--concepts-colors);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btnStart:hover {
+  color: var(--concepts-colors);
+  background-color: white;
+  transform: scale(1.1);
 }
